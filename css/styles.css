@@ -467,10 +467,6 @@ body {
   text-align: justify;
 }
 
-.footer-socials {
-  /* margin-right: 80px; */
-}
-
 .socials-text {
   color: var(--basic-white-color);
   font-size: 16px;
