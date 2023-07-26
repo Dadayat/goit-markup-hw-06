@@ -32,7 +32,7 @@
     }
 
     .customers-item {
-        width: 168px;
+        max-width: 168px;
     }
 
     .customers-icon {
@@ -81,6 +81,30 @@
     }
 
 /**------------ PRODUCT-------------- */
+.product-section {
+    padding-bottom: 120px;
+    display: flex;
+}
+
+.product-title {
+    color: var(--primary-black-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.product-list {
+    display: flex;
+    gap: 24px;
+}
+
+.product-item {
+    width: calc((100% - 2 * 24px) / 3);
+}
 /**------------ TEAM-------------- */
     .team-section {
         padding-top: 120px;
@@ -103,14 +127,6 @@
 
     .customers-list {
         gap: 24px;
-    }
-
-    .customers-item {
-        width: 168px;
-    }
-
-    .customers-icon {
-        width: 104px;
     }
 }  
 
