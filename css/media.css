@@ -112,6 +112,7 @@ min-width: 264px;
 .footer-btn {
     margin: 0;
 }
+}
 
 
 
@@ -241,8 +242,7 @@ min-width: 264px;
     margin-right: 120px;
 }
 
-.footer-socials {
-    margin-right: 80px;
+    .footer-socials {
+        margin-right: 80px;
+    }
 }
-}
-
