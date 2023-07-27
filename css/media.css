@@ -1,3 +1,10 @@
+@media screen and (min-width: 428px) {
+/**------------ MODAL-------------- */
+.modal {
+        width: 392px;
+}
+}
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -105,7 +112,8 @@ min-width: 264px;
 .footer-btn {
     margin: 0;
 }
-}
+
+
 
 @media screen and (min-width: 1158px) {
     .container {
