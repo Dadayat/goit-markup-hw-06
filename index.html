@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="ie=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -17,8 +17,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/styles.css" >
+    <link rel="stylesheet" href="./css/media.css" >
     <title>Studio</title>
   </head>
   <body>
@@ -60,66 +60,96 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="menu-open-btn">
+        <button type="button" class="menu-open-btn" data-menu-open>
           <svg class="mob-icon" width="32" height="22">
             <use href="./images/icons.svg#icon-menu-hamburger"></use>
           </svg>
         </button>
       </div>
-      <div class="mob-menu">
+      <div class="mob-menu is-hidden" data-menu>
         <div>
-        <button type="button" class="menu-close-btn">
-          <svg class="close-menu-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-        <ul class="mob-menu-list list">
-          <li class="mob-menu-item">
-            <a class="mob-menu-link link current" href="./index.html">Studio</a>
-          </li>
-          <li class="mob-menu-item">
-            <a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="mob-menu-item">
-            <a class="mob-menu-link link" href="">Contacts</a>
-          </li>
-        </ul>
+          <button type="button" class="menu-close-btn" data-menu-close>
+            <svg class="close-menu-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-list list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link current" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
         </div>
         <div>
           <address class="mob-address">
             <ul class="mob-address-list list">
               <li class="mob-address-item">
-                <a class="mob-address-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                <a class="mob-addtel-link link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
               </li>
               <li class="mob-address-item">
-                <a class="mob-address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a
+                  class="mob-address-link link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
             </ul>
           </address>
           <ul class="mob-list-socials list">
             <li class="mob-socials-item">
-              <a class="mob-socials-link link" href="" aria-label="instagram" target="_blank">
+              <a
+                class="mob-socials-link link"
+                href=""
+                aria-label="instagram"
+                target="_blank"
+              >
                 <svg class="mob-socials-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="mob-socials-item">
-              <a class="mob-socials-link link" href="" aria-label="twitter" target="_blank">
+              <a
+                class="mob-socials-link link"
+                href=""
+                aria-label="twitter"
+                target="_blank"
+              >
                 <svg class="mob-socials-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="mob-socials-item">
-              <a class="mob-socials-link link" href="" aria-label="facebook" target="_blank">
+              <a
+                class="mob-socials-link link"
+                href=""
+                aria-label="facebook"
+                target="_blank"
+              >
                 <svg class="mob-socials-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="mob-socials-item">
-              <a class="mob-socials-link link" href="" aria-label="linkedin" target="_blank">
+              <a
+                class="mob-socials-link link"
+                href=""
+                aria-label="linkedin"
+                target="_blank"
+              >
                 <svg class="mob-socials-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -127,7 +157,6 @@
             </li>
           </ul>
         </div>
-        
       </div>
     </header>
 
@@ -203,19 +232,28 @@
           <h2 class="product-title">What are we doing</h2>
           <ul class="product-list list">
             <li class="product-item">
-              <img 
-              srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x"
-              src="./images/img1.jpg" alt="screen" width="360">
+              <img
+                srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x"
+                src="./images/img1.jpg"
+                alt="screen"
+                width="360"
+              >
             </li>
             <li class="product-item">
-              <img 
-              srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
-              src="./images/img2.jpg" alt="chats" width="360">
+              <img
+                srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
+                src="./images/img2.jpg"
+                alt="chats"
+                width="360"
+              >
             </li>
             <li class="product-item">
-              <img 
-              srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
-              src="./images/img3.jpg" alt="phone" width="360">
+              <img
+                srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
+                src="./images/img3.jpg"
+                alt="phone"
+                width="360"
+              >
             </li>
           </ul>
         </div>
@@ -226,7 +264,8 @@
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img class="team-img"
+              <img
+                class="team-img"
                 srcset="./images/teamcard1.jpg 1x, ./images/teamcard1-2x.jpg 2x"
                 src="./images/teamcard1.jpg"
                 alt="product_des"
@@ -293,7 +332,8 @@
               </div>
             </li>
             <li class="team-item">
-              <img class="team-img"
+              <img
+                class="team-img"
                 srcset="./images/teamcard2.jpg 1x, ./images/teamcard2-2x.jpg 2x"
                 src="./images/teamcard2.jpg"
                 alt="frontend_dev"
@@ -360,7 +400,8 @@
               </div>
             </li>
             <li class="team-item">
-              <img class="team-img"
+              <img
+                class="team-img"
                 srcset="./images/teamcard3.jpg 1x, ./images/teamcard3-2x.jpg 2x"
                 src="./images/teamcard3.jpg"
                 alt="marketing"
@@ -427,7 +468,8 @@
               </div>
             </li>
             <li class="team-item">
-              <img class="team-img"
+              <img
+                class="team-img"
                 srcset="./images/teamcard4.jpg 1x, ./images/teamcard4-2x.jpg 2x"
                 src="./images/teamcard4.jpg"
                 alt="ua_des"
@@ -755,7 +797,7 @@
         </form>
       </div>
     </div>
-
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
